@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        >
+        <item android:id="@+id/homebutton"
+            android:icon="@drawable/home"
+            android:title="Home"
+            android:checkable="true"
+            />
+        <item android:id="@+id/post"
+            android:icon="@drawable/post"
+            android:title="Post"
+            android:checkable="true"
+            />
+        <item android:id="@+id/friend"
+            android:icon="@drawable/friends"
+            android:title="Friends"
+android:checkable="true"            />
+        <item android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout"
+            android:checkable="true"
+            />
+    </group>
+</menu>
